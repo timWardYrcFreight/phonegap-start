@@ -1,0 +1,351 @@
+body {
+  /* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#fff)); */
+	/* background-image: url(../images/background.png); */
+	/* background-repeat:repeat; */
+	/* background-position: 0 0; */
+	background-color:#fff;
+	margin:0;
+	min-height:480px;
+	font-family:sans-serif;
+	font-size:11px;
+}
+
+div#header {
+	background-image:url(../images/sprites.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	width: 100%;
+	height: 31px;
+	margin:0;
+}
+
+div#header a {
+	border:none;
+	display:block;
+	height: 31px;
+	width:100%;
+}
+
+div#header span {
+	display:none;
+}
+
+div#nav {
+	width: 100%;
+	height: 26px;
+	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#acadaf), color-stop(.5,#dfe0e0), color-stop(.5,#d2d2d3)); */
+	background-image: url(../images/buttonGradients.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	margin:0;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#555;
+}
+
+div#nav ul {
+	margin:0;
+	padding:7px 12px;
+}
+
+div#nav ul li {
+	display:inline-block;
+}
+
+div#nav ul li:after {
+	content: ">";
+	padding: 0 5px;
+}
+
+div#nav ul li:last-child:after {
+	content: "";
+	padding:0;
+}
+
+div#nav ul li a {
+	color:#555;
+	text-decoration:none;
+}
+
+div.section, noscript {
+	margin: 0 15px;
+	clear:both;
+}
+
+p.noscript {
+	font-size: 2em;
+	color: red;
+	font-weight: bold
+}
+
+div.fade {
+	-webkit-transition-property: opacity;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1.5s;
+	-webkit-transition-timing-function: ease;
+	z-index: 0;
+	display: none;
+	opacity: 0;
+}
+
+div.selected {
+	z-index: 100;
+	opacity: 1;
+	display:block !important;
+}
+
+div#iPhoneAD, div#androidAD {
+	width:320px;
+	height:80px;
+	display:none;
+	margin:0;
+	position:relative;
+}
+
+div#iPhoneAD span, div#androidAD span {
+	display:none;
+}
+
+div#links ul.links {
+	margin:0;
+	padding:0;
+	width:295px;
+}
+
+div#links ul.links li {
+	display:block;
+	background-image:url(../images/sprites.png);
+	background-repeat:no-repeat;
+	background-position: 0px -31px;
+	width: 295px;
+	height: 41px;
+	padding: 0;
+	margin: 8px 0;
+}
+
+div#links ul.links li a {
+	color:#fff;
+	text-decoration:none;
+	padding:11px 0;
+	text-align:center;
+	width:295px;
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+div#formButtons {
+	padding-top:10px;
+}
+
+div.radioButtons {
+	display:block;
+	height:50px;
+	margin:10px 0 0 15px;
+	width:290px;
+}
+
+div#footer {
+	clear:both;
+	font-size:9px;
+	margin: 15px 15px;
+	padding:0;
+}
+
+div#footer ul {
+	width:290px;
+	margin: 0 0 5px;
+	padding:0;
+}
+
+div#footer ul li {
+	display:inline-block;
+	margin: 0 4px 0 0;
+	padding:0 4px 0 0;
+	border-right: 1px solid #7d7d7d;
+}
+
+div#footer ul li:last-child {
+	border-right:none;
+	margin: 0;
+	padding:0;
+}
+
+div#footer ul li a {
+	color:#004785;
+	text-decoration:none;
+}
+
+div#footer ul#contact li {
+	border: none;
+	margin: 0 6px 0 0;
+}
+
+div#footer ul#contact li.contactButton {
+	background-image:url(../images/sprites.png);
+	background-repeat:no-repeat;
+	width:90px;
+	height:30px;
+	padding:0;
+	margin:0;
+}
+
+div#footer ul#contact li#contactChat {
+	background-position: 0 -122px;
+}
+
+div#footer ul#contact li#contactPhone {
+	background-position: -90px -122px;
+}
+
+div#footer ul#contact li#contactEmail {
+	background-position: -180px -122px;
+}
+
+div#footer ul#contact li.contactButton a {
+	width: 88px;
+	height:28px;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+div#footer ul#contact li.contactButton span {
+	display:none;
+	visibility:hidden;
+}
+
+
+input {
+	font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="number"], input[type="search"] {
+	font-family:monospace;
+}
+
+input.hidden {
+	display:none;
+}
+
+p.note {
+	font-weight:bold;
+	color:#666;
+}
+
+div.bigRadio {
+	background-image: url("../images/sprites.png");
+	background-repeat: no-repeat;
+	background-position: -80px -72px;
+	color: white;
+	cursor:pointer;
+	display: block;
+	float:left;
+	font-size: 16px;
+	font-weight: bold;
+	height: 48px;
+	line-height: 42px;
+	margin-right:10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 90px;
+}
+
+div.bigRadio:last-child {
+	margin-right:0;
+}
+
+div.bigRadio.checked {
+	background-position: -170px -72px;
+}
+
+div.label, div.row {
+	clear:both;
+	line-height:20px;
+	margin: 0 -15px;
+	padding: 4px 8px;
+	width: 304px;
+}
+
+
+div.label {
+	background-color:#666;
+	color:#fff;
+}
+
+div.row {
+}
+
+div.row input, div.label div {
+	float:left;
+}
+
+.single, .double, .triple {
+	border:1px solid #666;
+	height: 20px;
+	margin:0;
+	padding:1px;
+	width:280px;
+	
+}
+
+.double {
+	margin-right:15px;
+	width:131px;
+}
+
+.double:last-of-type {
+	margin-right:0;
+	width:130px;
+}
+
+.triple {
+	margin-right:15px;
+	width:82px;
+}
+
+.triple:last-of-type {
+	margin-right:0;
+}
+
+.orangeButton, .greyButton {
+	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fabc74), to(#f8a546), color-stop(.5,#fabc74), color-stop(.5,#f8a546)); */
+	background-image: url(../images/buttonGradients.png);
+	background-position: 0 -27px;
+	background-repeat: repeat-x;
+	border: 1px solid #999;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;
+	margin: 5px;
+	min-width:80px;
+	text-decoration:none;
+	text-transform:uppercase;
+	vertical-align:middle;
+	padding: 0 5px;
+}
+
+a.orangeButton, a.greyButton {
+	display:block;
+	height:23px;
+	text-align:center;
+	width:180px;
+}
+
+.orangeButton {
+	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fabc74), to(#f8a546), color-stop(.5,#fabc74), color-stop(.5,#f8a546)); */
+	background-position: 0 -27px;
+}
+
+.greyButton {
+	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b3b3b3), to(#999), color-stop(.5,#b3b3b3), color-stop(.5,#999)); */
+	background-position: 0 -50px;
+}
+
+a.newsRSS {
+	float:right;
+	margin:-22px 5px 0;
+}
