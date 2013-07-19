@@ -23,6 +23,16 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript">
+			var www_host="www.yrc.com",
+				my_host="my.yrc.com",
+				mobile_host="m.yrc.com",
+				my_mobile_host="m.my.yrc.com";
+		</script>
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-cookie-1.0.js"></script>
+		<script type="text/javascript" src="js/jquery-urlQuery-1.0.js"></script>
+		<script type="text/javascript" src="js/mobile-orig.js"></script>
         <title>Hello World</title>
     </head>
     <body>
@@ -33,6 +43,48 @@
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
+
+		<div id="header"><a href="http://m.yrc.com"><span>YRC Confidence Delivered</span></a></div>
+		
+		
+		<div id="nav">
+			<ul>
+				<li>Tools</li>
+			</ul>
+		</div>
+		<div class="section" id="links">
+			<ul class="links">
+				<li><a href="http://m.my.yrc.com/dynamic/national/mtools/tracking">Tracking</a></li>
+				<li><a href="http://m.my.yrc.com/dynamic/national/mtools/rateQuote">Rate Quote</a></li>
+				<li><a href="http://m.my.yrc.com/dynamic/national/mtools/docs">Shipping Documents</a></li>
+				<li><a href="http://m.my.yrc.com/dynamic/national/mtools/zipfinder">Zip Finder</a></li>
+				<li><a href="http://m.yrc.com/news" id="homeNewsLink">News</a></li>
+				<li><a href="http://m.yrc.com/services">Services</a></li>
+				<li><a href="http://m.yrc.com/feedback">Feedback</a></li>
+			</ul>
+		</div>
+		<div id="footer">
+			
+			<ul id="contact">
+				<li class="contactButton" id="contactChat"><a href="http://m.my.yrc.com/dynamic/national/mtools/chat" onClick="omnitureContactOptionsLink('Chat')"><span>Chat</span></a></li>
+				<li class="contactButton" id="contactPhone"><a href="/phone.html"><span>Phone</span></a></li>
+				<li class="contactButton" id="contactEmail"><a href="mailto:ecomm@yrcw.com" onClick="omnitureContactOptionsLink('Email')"><span>Email</span></a></li>
+			</ul>
+		
+
+			
+			<ul>
+				<li>Copyright &copy; 2012 YRC Inc.</li>
+				<li><a href="http://www.yrc.com" onclick="return returnToFullSite();">View Full Site</a></li>
+			</ul>
+			<ul>
+				<li><a href="/disclaimer.html">Notice and Legal Disclaimer</a></li>
+				<li><a href="/privacy.html">Privacy Policy</a></li>
+				<li><a href="http://www.yrcw.com/">YRC Worldwide Inc.</a></li>
+			</ul>
+		
+		</div>
+
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

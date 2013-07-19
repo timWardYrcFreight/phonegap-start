@@ -1,6 +1,6 @@
 body {
   /* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#fff)); */
-	/* background-image: url(../images/background.png); */
+	/* background-image: url(../img/background.png); */
 	/* background-repeat:repeat; */
 	/* background-position: 0 0; */
 	background-color:#fff;
@@ -11,7 +11,7 @@ body {
 }
 
 div#header {
-	background-image:url(../images/sprites.png);
+	background-image:url(../img/sprites.png);
 	background-repeat:no-repeat;
 	background-position: 0px 0px;
 	width: 100%;
@@ -34,7 +34,7 @@ div#nav {
 	width: 100%;
 	height: 26px;
 	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#acadaf), color-stop(.5,#dfe0e0), color-stop(.5,#d2d2d3)); */
-	background-image: url(../images/buttonGradients.png);
+	background-image: url(../img/buttonGradients.png);
 	background-position: 0 0;
 	background-repeat: repeat-x;
 	margin:0;
@@ -114,7 +114,7 @@ div#links ul.links {
 
 div#links ul.links li {
 	display:block;
-	background-image:url(../images/sprites.png);
+	background-image:url(../img/sprites.png);
 	background-repeat:no-repeat;
 	background-position: 0px -31px;
 	width: 295px;
@@ -183,7 +183,7 @@ div#footer ul#contact li {
 }
 
 div#footer ul#contact li.contactButton {
-	background-image:url(../images/sprites.png);
+	background-image:url(../img/sprites.png);
 	background-repeat:no-repeat;
 	width:90px;
 	height:30px;
@@ -235,7 +235,7 @@ p.note {
 }
 
 div.bigRadio {
-	background-image: url("../images/sprites.png");
+	background-image: url("../img/sprites.png");
 	background-repeat: no-repeat;
 	background-position: -80px -72px;
 	color: white;
@@ -311,7 +311,7 @@ div.row input, div.label div {
 
 .orangeButton, .greyButton {
 	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fabc74), to(#f8a546), color-stop(.5,#fabc74), color-stop(.5,#f8a546)); */
-	background-image: url(../images/buttonGradients.png);
+	background-image: url(../img/buttonGradients.png);
 	background-position: 0 -27px;
 	background-repeat: repeat-x;
 	border: 1px solid #999;
